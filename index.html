@@ -12,118 +12,122 @@
     />
     <title>Winter Clothes</title>
   </head>
-  <body
-    class="h-full w-full md:pt-6 font-['Inter'] bg-[url('/assets/background-image.png')] bg-fixed bg-cover bg-center bg-no-repeat"
-  >
-    <!-- nav bar -->
-    <nav
-      class="flex md:h-14 px-6 md:px-8 pt-6 md:pt-0 justify-between items-center w-full"
+  <body>
+    <div
+      class="min-h-screen w-full md:pt-6 font-['Inter'] bg-[url('../assets/background-image.png')] bg-fixed bg-cover bg-center bg-no-repeat"
     >
-      <div class="flex md:gap-14 lg:gap-24">
-        <img src="./assets/logo 1.png" alt="Logo" />
-        <div class="md:flex md:items-center md:space-x-7 lg:space-x-16 hidden">
-          <a href="#" class="text-black text-base">Home</a>
-          <a href="#" class="text-black text-base">About</a>
-          <a href="#" class="text-black text-base">Categories</a>
-          <a href="#" class="text-black text-base">Collections</a>
-        </div>
-      </div>
-      <div>
-        <img src="./assets/cart 1.png" alt="Cart" class="hidden md:block" />
-      </div>
-      <a href="#" onclick="showSidebar()" class="md:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="40px"
-          viewBox="0 -960 960 960"
-          width="40px"
-          fill="#000000"
-        >
-          <path
-            d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-          />
-        </svg>
-      </a>
-    </nav>
-    <!-- Hamburger Menu -->
-    <nav
-      class="hidden sidebar fixed right-0 top-0 h-5/6 gap-10 p-7 px-12 w-4/5 z-50 bg-sky-100 flex-col items-start shadow-lg shadow-slate-300"
-    >
-      <a href="#" class="self-end" onclick="hideSidebar()">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="40px"
-          viewBox="0 -960 960 960"
-          width="40px"
-          fill="#000000"
-        >
-          <path
-            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-          />
-        </svg>
-      </a>
-
-      <a href="#" class="text-black text-base">Home</a>
-      <a href="#" class="text-black text-base">About</a>
-      <a href="#" class="text-black text-base">Categories</a>
-      <a href="#" class="text-black text-base">Collections</a>
-
-      <div class="self-end">
-        <img src="./assets/cart 1.png" alt="Cart" />
-      </div>
-    </nav>
-
-    <main
-      class="flex flex-col lg:flex-row w-full gap-7 py-5 lg:pt-22 lg:relative"
-    >
-      <div
-        class="lg:order-2 lg:absolute lg:right-10 lg:top-25 xl:right-20 xl:top-0"
+      <!-- nav bar -->
+      <nav
+        class="flex md:h-14 px-6 md:px-8 pt-6 md:pt-0 justify-between items-center w-full"
       >
-        <img
-          src="./assets/image.png"
-          alt="Lady image"
-          class="w-3/5 lg:size-[500px] xl:size-[600px] mx-auto"
-        />
-      </div>
-      <div
-        class="w-full flex flex-col gap-5 lg:ml-40 xl:ml-56 lg:w-[450px] lg:items-start lg:order-1"
-      >
-        <h1
-          class="text-4xl text-black text-center lg:text-left lg:max-w-xs lg:order-2 w-4/5 mx-auto lg:mx-0"
-        >
-          You should always feel pretty
-        </h1>
-        <p
-          class="text-lg text-[#91A9BB] lg:order-3 text-center lg:text-left w-4/5 mx-auto lg:mx-0"
-        >
-          Clothes that are sure to heat up your winter
-        </p>
-        <div class="text-center lg:text-left w-full lg:order-1">
-          <a
-            href="#"
-            class="text-white text-sm inline-block px-6 py-3 rounded-xl shadow-md shadow-slate-500 bg-gradient-to-r from-[#3385FF] via-[#D38CFF] to-[#FF85F3]"
-            >2022 Collections</a
+        <div class="flex md:gap-14 lg:gap-24">
+          <img src="./assets/logo 1.png" alt="Logo" />
+          <div
+            class="md:flex md:items-center md:space-x-7 lg:space-x-16 hidden"
           >
+            <a href="#" class="text-black text-base">Home</a>
+            <a href="#" class="text-black text-base">About</a>
+            <a href="#" class="text-black text-base">Categories</a>
+            <a href="#" class="text-black text-base">Collections</a>
+          </div>
         </div>
-
-        <div
-          class="flex justify-between w-4/5 mx-auto lg:order-4 lg:mx-0 lg:justify-start lg:gap-10"
-        >
-          <img src="./assets/back-arrow 1.png" alt="Back arrow" />
-          <img src="./assets/next-arrow 1.png" alt="next arrow" />
+        <div>
+          <img src="./assets/cart 1.png" alt="Cart" class="hidden md:block" />
         </div>
-      </div>
-    </main>
-
-    <footer>
-      <div
-        class="flex gap-7 lg:gap-8 w-full justify-center h-5 mb-7 absolute lg:bottom-48 lg:-left-26 lg:justify-start lg:w-[300px] lg:transform lg:rotate-270"
+        <a href="#" onclick="showSidebar()" class="md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#000000"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </a>
+      </nav>
+      <!-- Hamburger Menu -->
+      <nav
+        class="hidden sidebar fixed right-0 top-0 h-3/5 gap-10 p-7 px-12 w-full z-50 bg-sky-100 flex-col items-start shadow-lg shadow-slate-300"
       >
-        <p class="text-[#535353] text-base">Facebook</p>
-        <p class="text-[#535353] text-base">Instagram</p>
-        <p class="text-[#535353] text-base">Twitter</p>
-      </div>
-    </footer>
+        <a href="#" class="self-end" onclick="hideSidebar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#000000"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+        </a>
+
+        <a href="#" class="text-black text-base">Home</a>
+        <a href="#" class="text-black text-base">About</a>
+        <a href="#" class="text-black text-base">Categories</a>
+        <a href="#" class="text-black text-base">Collections</a>
+
+        <div class="self-end">
+          <img src="./assets/cart 1.png" alt="Cart" />
+        </div>
+      </nav>
+
+      <main
+        class="flex flex-col lg:flex-row w-full gap-7 py-5 lg:pt-22 lg:relative"
+      >
+        <div
+          class="lg:order-2 lg:absolute lg:right-10 lg:top-25 xl:right-20 xl:top-0"
+        >
+          <img
+            src="./assets/image.png"
+            alt="Lady image"
+            class="w-3/5 lg:size-[500px] xl:size-[600px] mx-auto"
+          />
+        </div>
+        <div
+          class="w-full flex flex-col gap-5 lg:ml-40 xl:ml-56 lg:w-[450px] lg:items-start lg:order-1"
+        >
+          <h1
+            class="text-4xl text-black text-center lg:text-left lg:max-w-xs lg:order-2 w-4/5 mx-auto lg:mx-0"
+          >
+            You should always feel pretty
+          </h1>
+          <p
+            class="text-lg text-[#91A9BB] lg:order-3 text-center lg:text-left w-4/5 mx-auto lg:mx-0"
+          >
+            Clothes that are sure to heat up your winter
+          </p>
+          <div class="text-center lg:text-left w-full lg:order-1">
+            <a
+              href="#"
+              class="text-white text-sm inline-block px-6 py-3 rounded-xl shadow-md shadow-slate-500 bg-gradient-to-r from-[#3385FF] via-[#D38CFF] to-[#FF85F3]"
+              >2022 Collections</a
+            >
+          </div>
+
+          <div
+            class="flex justify-between w-4/5 mx-auto lg:order-4 lg:mx-0 lg:justify-start lg:gap-10"
+          >
+            <img src="./assets/back-arrow 1.png" alt="Back arrow" />
+            <img src="./assets/next-arrow 1.png" alt="next arrow" />
+          </div>
+        </div>
+      </main>
+
+      <footer class="pb-7">
+        <div
+          class="flex gap-7 lg:gap-8 w-full justify-center h-5 md:absolute lg:bottom-48 lg:-left-26 lg:justify-start lg:w-[300px] lg:transform lg:rotate-270"
+        >
+          <p class="text-[#535353] text-base">Facebook</p>
+          <p class="text-[#535353] text-base">Instagram</p>
+          <p class="text-[#535353] text-base">Twitter</p>
+        </div>
+      </footer>
+    </div>
     <script>
       function showSidebar() {
         const sidebar = document.querySelector(".sidebar");
